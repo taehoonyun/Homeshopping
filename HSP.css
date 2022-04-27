@@ -1,0 +1,83 @@
+* {
+  list-style: none;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  background: transparent;
+  text-align: center;
+  padding: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+.invisible {
+  display: none;
+}
+.allOpt {
+  display: flex;
+  width: 500px;
+}
+.options,
+.colors {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 24px;
+  width: 480px;
+  padding: 0;
+}
+.options button {
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: transform 300ms ease;
+}
+
+.colors button {
+  border: none;
+  outline: none;
+  background: transparent;
+  transition: transform 300ms ease;
+}
+
+.btn:hover,
+.logo:hover {
+  transform: scale(1.1);
+}
+.options .btn > img {
+  width: 50px;
+  height: 50px;
+}
+.colors .Blue {
+  background-color: skyblue;
+  padding: 12px 12px;
+}
+.colors .Yellow {
+  background-color: #ffd000;
+  padding: 12px 12px;
+}
+.colors .Pink {
+  background-color: pink;
+  padding: 12px 12px;
+}
+.products {
+  padding-left: 0;
+}
+
+.item {
+  padding: 12px 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.item img {
+  width: 50px;
+  height: 50px;
+}
